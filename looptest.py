@@ -6,7 +6,7 @@ count = 0
 while True:
     print("Hello World")
     count += 1
-    if time.time() - start_time >= 1.0:  # Überprüfen Sie, ob 1 Sekunde vergangen ist
+    if time.time() - start_time >= 1.0:  # Check if, 1 second has passed
         break
 
-print("Schleifendurchläufe pro Sekunde:", count)
+print("Loops in a second:", count)
